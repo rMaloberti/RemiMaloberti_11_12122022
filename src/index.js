@@ -6,28 +6,23 @@ import About from './pages/About';
 import Error from './pages/Error';
 import Home from './pages/Home';
 import Logement from './pages/Logement';
-import Root from './pages/Root';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Root />,
+    element: <Home />,
     errorElement: <Error />,
-    children: [
-      {
-        index: true,
-        element: <Home />,
-      },
-      {
-        path: 'a-propos',
-        element: <About />,
-      },
-      {
-        path: 'logement/:id',
-        element: <Logement />,
-      },
-    ],
+  },
+  {
+    path: '/a-propos',
+    element: <About />,
+    errorElement: <Error />,
+  },
+  {
+    path: '/logement/:id',
+    element: <Logement />,
+    errorElement: <Error />,
   },
 ]);
 
