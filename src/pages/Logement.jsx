@@ -1,7 +1,11 @@
 import './Logement.css';
 
 function Logement() {
-  return;
+  return (
+    <div>
+      <h1>Logement</h1>
+    </div>
+  );
 }
 
 export default Logement;
