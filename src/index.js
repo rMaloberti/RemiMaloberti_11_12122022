@@ -5,27 +5,26 @@ import './index.css';
 import About from './pages/About';
 import Error from './pages/Error';
 import Home from './pages/Home';
+import { loader as logementLoader } from './pages/Logement';
 import Logement from './pages/Logement';
-import Root from './pages/Root';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <Root />,
     errorElement: <Error />,
     children: [
       {
-        index: true,
+        path: '/',
         element: <Home />,
       },
       {
-        path: 'a-propos',
+        path: '/a-propos',
         element: <About />,
       },
       {
-        path: 'logement/:id',
+        path: '/logement/:id',
         element: <Logement />,
+        loader: logementLoader,
       },
     ],
   },
