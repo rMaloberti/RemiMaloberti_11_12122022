@@ -5,24 +5,28 @@ import './index.css';
 import About from './pages/About';
 import Error from './pages/Error';
 import Home from './pages/Home';
+import { loader as logementLoader } from './pages/Logement';
 import Logement from './pages/Logement';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <Home />,
     errorElement: <Error />,
-  },
-  {
-    path: '/a-propos',
-    element: <About />,
-    errorElement: <Error />,
-  },
-  {
-    path: '/logement/:id',
-    element: <Logement />,
-    errorElement: <Error />,
+    children: [
+      {
+        path: '/',
+        element: <Home />,
+      },
+      {
+        path: '/a-propos',
+        element: <About />,
+      },
+      {
+        path: '/logement/:id',
+        element: <Logement />,
+        loader: logementLoader,
+      },
+    ],
   },
 ]);
 
