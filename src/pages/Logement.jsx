@@ -15,7 +15,7 @@ export async function loader({ params }) {
 
 function Logement() {
   return (
-    <div>
+    <div className="page">
       <h1>Logement</h1>
     </div>
   );

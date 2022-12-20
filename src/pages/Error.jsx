@@ -2,7 +2,7 @@ import './Error.css';
 
 function Error() {
   return (
-    <div>
+    <div className="page">
       <h1>404</h1>
     </div>
   );
