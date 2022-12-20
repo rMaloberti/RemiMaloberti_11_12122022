@@ -11,7 +11,7 @@ function Header() {
         <NavLink
           to="/"
           className={({ isActive }) =>
-            isActive ? 'header__nav__link--active' : 'header__nav__link'
+            `header__nav__link ${isActive ? 'header__nav__link--active' : ''}`
           }
         >
           Accueil
@@ -19,7 +19,7 @@ function Header() {
         <NavLink
           to="/a-propos"
           className={({ isActive }) =>
-            isActive ? 'header__nav__link--active' : 'header__nav__link'
+            `header__nav__link ${isActive ? 'header__nav__link--active' : ''}`
           }
         >
           A Propos
