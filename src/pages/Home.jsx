@@ -5,7 +5,6 @@ function Home() {
   return (
     <div className="page">
       <Header />
-      <h1>Accueil</h1>
     </div>
   );
 }

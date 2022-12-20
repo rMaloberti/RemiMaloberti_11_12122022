@@ -1,0 +1,22 @@
+.header {
+  /* Size */
+  width: 100%;
+
+  /* Display */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Margin and padding */
+  padding: 2.5vw 0;
+}
+
+.header__logo {
+  /* Size */
+  width: 15vw;
+}
+
+.header__logo img {
+  /* Size */
+  width: 100%;
+}
