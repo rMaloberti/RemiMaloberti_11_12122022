@@ -1,5 +1,5 @@
 export async function getLogements() {
-  const logements = require('./logements.json');
+  const logements = await require('./logements.json');
 
   return logements;
 }
