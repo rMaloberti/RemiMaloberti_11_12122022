@@ -3,7 +3,7 @@ import './Banner.css';
 function Banner(props) {
   return (
     <div className={`banner banner--${props.page}`}>
-      {props.page === 'home' ? <h2>Chez vous, partout et ailleurs</h2> : null}
+      {props.page === 'home' ? <p className="banner__text">Chez vous, partout et ailleurs</p> : null}
     </div>
   );
 }

@@ -1,0 +1,39 @@
+.banner {
+  /* Size */
+  width: 100%;
+  height: 15vw;
+
+  /* Display */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Background */
+  background-position: center 43%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* Border */
+  border-radius: 2vw;
+
+  /* Margin and padding */
+  margin: 1vw 0;
+}
+
+.banner--home {
+  /* Background */
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('../assets/banner-home.jpeg');
+}
+
+.banner--about {
+  /* Background */
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('../assets/banner-about.jpeg');
+}
+
+.banner__text {
+  /* Color */
+  color: white;
+
+  /* Font */
+  font-size: 3vw;
+}
