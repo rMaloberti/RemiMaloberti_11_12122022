@@ -1,3 +1,4 @@
+import Header from '../components/Header';
 import { getLogement } from '../data/data';
 import './Logement.css';
 
@@ -16,7 +17,7 @@ export async function loader({ params }) {
 function Logement() {
   return (
     <div className="page">
-      <h1>Logement</h1>
+      <Header />
     </div>
   );
 }

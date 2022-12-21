@@ -1,9 +1,10 @@
+import Header from '../components/Header';
 import './About.css';
 
 function About() {
   return (
     <div className="page">
-      <h1>À propos</h1>
+      <Header />
     </div>
   );
 }
