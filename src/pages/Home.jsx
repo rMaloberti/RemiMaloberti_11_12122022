@@ -1,5 +1,6 @@
 import { useLoaderData } from 'react-router-dom';
 import Banner from '../components/Banner';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Thumb from '../components/Thumb';
 import { getLogements } from '../data/data';
@@ -31,6 +32,7 @@ function Home() {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

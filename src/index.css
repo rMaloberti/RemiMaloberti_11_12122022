@@ -23,10 +23,15 @@ code {
 
 #root {
   /* Size */
-  width: 85%;
+  width: 100%;
 }
 
 .page {
   /* Size */
   width: 100%;
+
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

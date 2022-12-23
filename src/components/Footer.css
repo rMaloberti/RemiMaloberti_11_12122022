@@ -1,0 +1,35 @@
+.footer {
+  /* Size */
+  width: 100%;
+
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  /* Background */
+  background-color: black;
+
+  /* Margin and padding */
+  padding-top: 3.5vw;
+  padding-bottom: 1vw;
+}
+
+.footer__logo {
+  /* Size */
+  width: 7.5vw;
+}
+
+.footer__logo__img {
+  /* Size */
+  width: 100%;
+}
+
+.footer__copyright {
+  /* Color */
+  color: white;
+
+  /* Font */
+  font-size: 1.25vw;
+}
