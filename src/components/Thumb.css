@@ -49,6 +49,9 @@
 }
 
 .thumb__title {
+  /* Size */
+  max-width: 50%;
+  
   /* Position */
   z-index: 1;
 
