@@ -1,3 +1,8 @@
+.content {
+  /* Size */
+  width: 85%;
+}
+
 .gallery {
   /* Size */
   width: 100%;
@@ -17,4 +22,29 @@
 
   /* Border */
   border-radius: 2vw;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .content {
+    /* Size */
+    width: 90%;
+  }
+
+  .gallery {
+    /* Display */
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 5vw;
+
+    /* Background */
+    background-color: unset;
+
+    /* Margin and padding */
+    padding: 0;
+    margin: 5vw 0;
+
+    /* Border */
+    border-radius: unset;
+  }
 }

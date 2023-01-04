@@ -38,3 +38,25 @@
   /* Font */
   font-size: 3vw;
 }
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .banner {
+    /* Size */
+    height: 30vw;
+
+    /* Display */
+    justify-content: flex-start;
+
+    /* Margin and padding */
+    margin: 0;
+  }
+
+  .banner__text {
+    /* Font */
+    font-size: 6vw;
+
+    /* Margin and padding */
+    margin: 0 5vw;
+  }
+}
