@@ -41,3 +41,29 @@
   /* Font */
   text-decoration: underline;
 }
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .header {
+    /* Size */
+    width: 90%;
+
+    /* Margin and padding */
+    padding: 4vw 0;
+  }
+
+  .header__logo {
+    /* Size */
+    width: 35vw;
+  }
+
+  .header__nav {
+    /* Display */
+    gap: 4vw;
+  }
+
+  .header__nav__link {
+    /* Font */
+    font-size: 3.5vw;
+  }
+}

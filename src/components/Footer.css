@@ -33,3 +33,25 @@
   /* Font */
   font-size: 1.25vw;
 }
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .footer {
+    /* Display */
+    justify-content: center;
+    gap: 3.5vw;
+
+    /* Margin and padding */
+    padding: 12.5vw 0;
+  }
+
+  .footer__logo {
+    /* Size */
+    width: 30vw;
+  }
+
+  .footer__copyright {
+    /* Font */
+    font-size: 3.5vw;
+  }
+}
