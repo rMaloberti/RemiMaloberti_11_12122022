@@ -34,7 +34,6 @@
   .gallery {
     /* Display */
     flex-direction: column;
-    flex-wrap: nowrap;
     gap: 5vw;
 
     /* Background */
