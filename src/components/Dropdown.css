@@ -66,3 +66,38 @@
   /* Margin and padding */
   margin: 0;
 }
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .dropdown__header {
+    /* Border */
+    border-radius: 1vw;
+
+    /* Margin and padding */  
+    padding: 1.5vw 3vw;
+  }
+
+  .dropdown__header__title {
+    /* Font */
+    font-size: 3.75vw;
+  }
+
+  .dropdown__header__toggle {
+    /* Size */
+    width: 3vw;
+  }
+
+  .dropdown__content {
+    /* Border */
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+
+    /* Margin and padding */
+  padding: 3vw 3vw 6vw 3vw;
+  }
+
+  .dropdown__content__text {
+    /* Font */
+    font-size: 3.5vw;
+  }
+}
