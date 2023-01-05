@@ -4,6 +4,8 @@ import dropdownUp from '../assets/dropdown-up.svg';
 import './Dropdown.css';
 
 function Dropdown(props) {
+  const {title, text} = props;
+
   const [dropdownIcon, setDropdownIcon] = useState(dropdownDown);
 
   const toggleDropdown = () => {
@@ -21,13 +23,13 @@ function Dropdown(props) {
   return (
     <div id={`dropdown-${props.title}`} className="dropdown dropdown--closed">
       <div className="dropdown__header" onClick={toggleDropdown}>
-        <h2 className="dropdown__header__title">{props.title}</h2>
+        <h2 className="dropdown__header__title">{title}</h2>
         <div className="dropdown__header__toggle">
           <img className="dropdown__header__toggle__icon" alt="dropdown icon" src={dropdownIcon} />
         </div>
       </div>
       <div className="dropdown__content">
-        <p className="dropdown__content__text">{props.text}</p>
+        <p className="dropdown__content__text">{text}</p>
       </div>
     </div>
   );

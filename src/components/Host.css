@@ -1,0 +1,42 @@
+.host {
+  /* Display */
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.host__name {
+  /* Size */
+  width: 5vw;
+
+  /* Font */
+  color: #ff6060;
+  font-size: 1.25vw;
+  text-align: end;
+  line-height: 2vw;
+
+  /* Margin and padding */
+  margin: 0;
+}
+
+.host__picture {
+  /* Display */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Size */
+  width: 4.5vw;
+  height: 4.5vw;
+
+  /* Border */
+  border-radius: 50%;
+
+  /* Overflow */
+  overflow: hidden;
+}
+
+.host__picture__img {
+  /* Size */
+  width: 100%;
+}

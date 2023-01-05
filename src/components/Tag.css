@@ -1,0 +1,23 @@
+.tag {
+  /* Display */
+  display: flex;
+  justify-content: center;
+
+  /* Background */
+  background-color: #ff6060;
+
+  /* Border */
+  border-radius: .75vw;
+
+  /* Margin and padding */
+  padding: .25vw 2vw;
+}
+
+.tag__text {
+  /* Font */
+  color: white;
+  font-size: 1vw;
+
+  /* Margin and padding */
+  margin: 0;
+}
