@@ -1,15 +1,20 @@
+import { useState } from 'react';
 import dropdownDown from '../assets/dropdown-down.svg';
 import dropdownUp from '../assets/dropdown-up.svg';
 import './Dropdown.css';
 
 function Dropdown(props) {
+  const [dropdownIcon, setDropdownIcon] = useState(dropdownDown);
+
   const toggleDropdown = () => {
     const dropdown = document.getElementById(`dropdown-${props.title}`);
 
     if (dropdown.classList.contains('dropdown--closed')) {
       dropdown.classList.replace('dropdown--closed', 'dropdown--opened');
+      setDropdownIcon(dropdownUp);
     } else {
       dropdown.classList.replace('dropdown--opened', 'dropdown--closed');
+      setDropdownIcon(dropdownDown);
     }
   } 
 
@@ -18,7 +23,7 @@ function Dropdown(props) {
       <div className="dropdown__header" onClick={toggleDropdown}>
         <h2 className="dropdown__header__title">{props.title}</h2>
         <div className="dropdown__header__toggle">
-          <img className="dropdown__header__toggle__icon" alt="dropdown icon" src={props.isOpen ? dropdownUp : dropdownDown} />
+          <img className="dropdown__header__toggle__icon" alt="dropdown icon" src={dropdownIcon} />
         </div>
       </div>
       <div className="dropdown__content">
