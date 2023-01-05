@@ -1,0 +1,12 @@
+.about-content {
+  /* Size */
+  width: 85%;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .about-content {
+    /* Size */
+    width: 90%;
+  }
+}

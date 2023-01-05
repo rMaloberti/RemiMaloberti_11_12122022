@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="page">
       <Header />
-      <div className="content">
+      <div className="about-content">
         <Banner page="about" />
       </div>
     </div>

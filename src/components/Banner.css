@@ -52,6 +52,11 @@
     margin: 0;
   }
 
+  .banner--about {
+    /* Size */
+    height: 55vw;
+  }
+
   .banner__text {
     /* Font */
     font-size: 6vw;
