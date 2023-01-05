@@ -24,7 +24,7 @@ function Home() {
   return (
     <div className="page">
       <Header />
-      <div className="content">
+      <div className="home-content">
         <Banner page="home" />
         <div className="gallery">
           {logements.map((logement, index) => (
