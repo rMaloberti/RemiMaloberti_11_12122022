@@ -29,6 +29,9 @@
 .banner--about {
   /* Background */
   background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('../assets/banner-about.jpeg');
+
+  /* Margin and padding */
+  margin-bottom: 3vw;
 }
 
 .banner__text {

@@ -1,6 +1,24 @@
 .about-content {
   /* Size */
   width: 85%;
+
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dropdowns {
+  /* Size */
+  width: 80%;
+
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+
+  /* Margin and padding */
+  margin-bottom: 5vw;
 }
 
 /* Mobile */
