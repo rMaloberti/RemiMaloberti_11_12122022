@@ -14,26 +14,27 @@ export async function loader({ params }) {
       status: 404,
     });
   }
-  
+
   return logement;
 }
 
 function Logement() {
   const logement = useLoaderData();
-  
+
   return (
     <div className="page">
       <Header />
       <div className="logement-content">
         <Carousel pictures={logement.pictures} />
         <div className="infos">
-          <div className="infos__row">
+          <div className="infos__logement">
             <Title title={logement.title} location={logement.location} />
+          </div>
+          <div className="infos__hosting">
             <Host host={logement.host} />
           </div>
-          <div className="infos__row"></div>
-          <div className="infos__row"></div>
         </div>
+        <div className="details"></div>
       </div>
     </div>
   );

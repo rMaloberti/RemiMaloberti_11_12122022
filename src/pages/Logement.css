@@ -4,13 +4,11 @@
 }
 
 .infos {
-  /* Margin and padding */
-  margin: 2vw 0; 
-}
-
-.infos__row {
   /* Display */
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+
+  /* Margin and padding */
+  margin-top: 2vw; 
 }
