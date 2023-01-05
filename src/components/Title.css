@@ -2,7 +2,7 @@
   /* Display */
   display: flex;
   flex-direction: column;
-  gap: 0.5vw;
+  gap: 0.25vw;
 }
 
 .title__heading {

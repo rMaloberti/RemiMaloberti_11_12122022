@@ -12,3 +12,16 @@
   /* Margin and padding */
   margin-top: 2vw; 
 }
+
+.infos__logement {
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vw;
+}
+
+.infos__logement__tags {
+  /* Display */
+  display: flex;
+  gap: .75vw;
+}
