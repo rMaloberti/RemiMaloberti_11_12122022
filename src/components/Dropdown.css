@@ -67,6 +67,26 @@
   margin: 0;
 }
 
+.dropdown__content__list {
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  gap: .25vw;
+
+  /* List */
+  list-style: none;
+
+  /* Margin and padding */
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown__content__list__item {
+  /* Font */
+  color: #FF6060;
+  font-size: 1vw;
+}
+
 /* Mobile */
 @media screen and (max-width: 767px) {
   .dropdown__header {
