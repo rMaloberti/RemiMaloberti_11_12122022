@@ -2,6 +2,7 @@ import { useLoaderData } from 'react-router-dom';
 import Carousel from '../components/Carousel';
 import Header from '../components/Header';
 import Host from '../components/Host';
+import Rating from '../components/Rating';
 import Tag from '../components/Tag';
 import Title from '../components/Title';
 import { getLogement } from '../data/data';
@@ -38,6 +39,7 @@ function Logement() {
           </div>
           <div className="infos__hosting">
             <Host host={logement.host} />
+            <Rating rating={logement.rating} />
           </div>
         </div>
         <div className="details"></div>

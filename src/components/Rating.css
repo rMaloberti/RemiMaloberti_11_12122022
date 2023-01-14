@@ -1,0 +1,8 @@
+.rating {
+  /* Size */
+  width: 13.5vw;
+
+  /* Display */
+  display: flex;
+  justify-content: space-evenly;
+}

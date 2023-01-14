@@ -4,6 +4,9 @@
 }
 
 .infos {
+  /* Size */
+  height: 8vw;
+
   /* Display */
   display: flex;
   justify-content: space-between;
@@ -14,14 +17,28 @@
 }
 
 .infos__logement {
+  /* Size */
+  height: 100%;
+
   /* Display */
   display: flex;
   flex-direction: column;
-  gap: 1.5vw;
+  justify-content: space-between;
 }
 
 .infos__logement__tags {
   /* Display */
   display: flex;
   gap: .75vw;
+}
+
+.infos__hosting {
+  /* Size */
+  height: 100%;
+
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
 }
