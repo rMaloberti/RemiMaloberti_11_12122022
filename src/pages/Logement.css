@@ -42,3 +42,12 @@
   justify-content: space-between;
   align-items: flex-end;
 }
+
+.details {
+  /* Display */
+  display: flex;
+  justify-content: space-between;
+
+  /* Margin and padding */
+  margin: 1.75vw 0;
+}

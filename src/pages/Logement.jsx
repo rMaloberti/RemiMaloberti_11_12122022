@@ -1,5 +1,6 @@
 import { useLoaderData } from 'react-router-dom';
 import Carousel from '../components/Carousel';
+import DetailsDropdown from '../components/DetailsDropdown';
 import Header from '../components/Header';
 import Host from '../components/Host';
 import Rating from '../components/Rating';
@@ -39,10 +40,13 @@ function Logement() {
           </div>
           <div className="infos__hosting">
             <Host host={logement.host} />
-            <Rating rating={logement.rating} />
+            <Rating rating={parseInt(logement.rating)} />
           </div>
         </div>
-        <div className="details"></div>
+        <div className="details">
+          <DetailsDropdown title="Description" content={logement.description} isList={false} />
+          <DetailsDropdown title="Équipements" content={logement.equipments} isList={true} />
+        </div>
       </div>
     </div>
   );

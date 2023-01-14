@@ -30,7 +30,16 @@ function About() {
         <Banner page="about" />
         <div className="dropdowns">
           {dropdowns.map((dropdown, index) => {
-            return <Dropdown key={index} title={dropdown.title} text={dropdown.text} />;
+            return (
+              <Dropdown
+                key={index}
+                title={dropdown.title}
+                content={dropdown.text}
+                isList={false}
+                isDetailsDropdown={false}
+                defaultStatus="closed"
+              />
+            );
           })}
         </div>
       </div>
