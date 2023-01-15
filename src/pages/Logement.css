@@ -86,7 +86,7 @@
     gap: 3vw;
   }
 
-  .infos__hosting {  
+  .infos__hosting {
     /* Size */
     width: 100%;
 
@@ -97,6 +97,10 @@
   }
 
   .details {
+    /* Display */
+    flex-direction: column;
+    gap: 4vw;
+
     /* Margin and padding */
     margin: 3.5vw 0;
   }
