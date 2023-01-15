@@ -24,3 +24,25 @@
   /* Margin and padding */
   margin: 0;
 }
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .title {
+    /* Size */
+    width: 85%;
+
+    /* Display */
+    gap: 2vw;
+  }
+
+  .title__heading {
+    /* Font */
+    font-size: 4.5vw;
+    line-height: 6vw;
+  }
+
+  .title__location {
+    /* Font */
+    font-size: 3.5vw;
+  }
+}

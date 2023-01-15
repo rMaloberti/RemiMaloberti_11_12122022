@@ -2,3 +2,16 @@
   /* Display */
   display: flex;
 }
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .star {
+    /* Size */
+    width: 3vw;
+  }
+
+  .star__img {
+    /* Size */
+    width: 100%;
+  }
+}
