@@ -6,3 +6,11 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .rating {
+    /* Size */
+    width: 33%;
+  }
+}

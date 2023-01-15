@@ -39,8 +39,8 @@
   padding-bottom: 4vw;
 }
 
-
-.carousel__controls__previous, .carousel__controls__next {
+.carousel__controls__previous,
+.carousel__controls__next {
   /* Size */
   width: 2vw;
 
@@ -71,4 +71,41 @@
   /* Font */
   color: white;
   font-size: 1vw;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .carousel {
+    /* Size */
+    width: auto;
+    height: 68.5vw;
+
+    /* Display */
+    justify-content: center;
+  }
+
+  .carousel__img {
+    /* Size */
+    width: auto;
+    height: 100%;
+  }
+
+  .carousel__controls {
+    /* Margin and padding */
+    padding-bottom: 0;
+  }
+
+  .carousel__controls__previous,
+  .carousel__controls__next {
+    /* Size */
+    width: 2.75vw;
+
+    /* Position */
+    top: 45%;
+  }
+
+  .carousel__controls__counter {
+    /* Display */
+    display: none;
+  }
 }

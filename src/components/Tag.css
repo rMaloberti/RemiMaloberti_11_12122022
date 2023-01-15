@@ -21,3 +21,19 @@
   /* Margin and padding */
   margin: 0;
 }
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .tag {
+    /* Border */
+    border-radius: 1.5vw;
+
+    /* Margin and padding */
+    padding: 1vw 5vw;
+  }
+
+  .tag__text {
+    /* Font */
+    font-size: 2vw;
+  }
+}

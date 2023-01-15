@@ -13,7 +13,7 @@
   align-items: flex-start;
 
   /* Margin and padding */
-  margin-top: 2vw; 
+  margin-top: 2vw;
 }
 
 .infos__logement {
@@ -29,7 +29,7 @@
 .infos__logement__tags {
   /* Display */
   display: flex;
-  gap: .75vw;
+  gap: 0.75vw;
 }
 
 .infos__hosting {
@@ -50,4 +50,58 @@
 
   /* Margin and padding */
   margin: 1.75vw 0;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .logement-content {
+    /* Size */
+    width: 90%;
+
+    /* Margin */
+    margin: 1vw 0;
+  }
+
+  .infos {
+    /* Size */
+    width: 100%;
+    height: unset;
+
+    /* Display */
+    flex-direction: column;
+    gap: 2.5vw;
+
+    /* Margin and padding */
+    margin-top: 2.5vw;
+  }
+
+  .infos__logement {
+    /* Display */
+    gap: 2.5vw;
+  }
+
+  .infos__logement__tags {
+    /* Display */
+    flex-wrap: wrap;
+    gap: 3vw;
+  }
+
+  .infos__hosting {
+    /* Size */
+    width: 100%;
+
+    /* Display */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .details {
+    /* Display */
+    flex-direction: column;
+    gap: 4vw;
+
+    /* Margin and padding */
+    margin: 3.5vw 0;
+  }
 }

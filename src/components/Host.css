@@ -40,3 +40,30 @@
   /* Size */
   width: 100%;
 }
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .host {
+    /* Size */
+    width: 50%;
+
+    /* Display */
+    justify-content: flex-end;
+    gap: 3vw;
+  }
+
+  .host__name {
+    /* Size */
+    width: 10vw;
+
+    /* Font */
+    font-size: 2.75vw;
+    line-height: 4.5vw;
+  }
+
+  .host__picture {
+    /* Size */
+    width: 9vw;
+    height: 9vw;
+  }
+}
