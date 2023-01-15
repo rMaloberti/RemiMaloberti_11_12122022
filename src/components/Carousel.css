@@ -77,6 +77,16 @@
 @media screen and (max-width: 767px) {
   .carousel {
     /* Size */
+    width: auto;
+    height: 68.5vw;
+
+    /* Display */
+    justify-content: center;
+  }
+
+  .carousel__img {
+    /* Size */
+    width: auto;
     height: 100%;
   }
 
