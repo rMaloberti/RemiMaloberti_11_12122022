@@ -1,17 +1,20 @@
 .star {
+  /* Size */
+  width: 2vw;
+
   /* Display */
   display: flex;
+}
+
+.star__img {
+  /* Size */
+  width: 100%;
 }
 
 /* Mobile */
 @media screen and (max-width: 767px) {
   .star {
     /* Size */
-    width: 3vw;
-  }
-
-  .star__img {
-    /* Size */
-    width: 100%;
+    width: 4vw;
   }
 }

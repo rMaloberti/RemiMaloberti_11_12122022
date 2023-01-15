@@ -49,13 +49,16 @@
 
     /* Display */
     justify-content: flex-end;
-    gap: 4vw;
+    gap: 3vw;
   }
 
   .host__name {
+    /* Size */
+    width: 10vw;
+
     /* Font */
-    font-size: 2.5vw;
-    line-height: 3.5vw;
+    font-size: 2.75vw;
+    line-height: 4.5vw;
   }
 
   .host__picture {
