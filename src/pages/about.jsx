@@ -1,5 +1,6 @@
 import Banner from '../components/Banner';
 import Dropdown from '../components/Dropdown';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import './About.css';
 
@@ -43,6 +44,7 @@ function About() {
           })}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

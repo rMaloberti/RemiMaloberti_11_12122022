@@ -1,6 +1,7 @@
 import { useLoaderData } from 'react-router-dom';
 import Carousel from '../components/Carousel';
 import Dropdown from '../components/Dropdown';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Host from '../components/Host';
 import Rating from '../components/Rating';
@@ -60,6 +61,7 @@ function Logement() {
           />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

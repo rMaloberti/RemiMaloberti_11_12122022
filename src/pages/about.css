@@ -1,6 +1,7 @@
 .about-content {
   /* Size */
   width: 90%;
+  height: 100%;
 
   /* Display */
   display: flex;
